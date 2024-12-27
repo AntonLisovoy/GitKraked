@@ -85,7 +85,7 @@ async function main() {
     const patchData = parseJSONFile(patchFilePath);
 
     if (!packageData || !patchData) {
-        log(LogType.ERROR, 'Couldn't read package or patch data.');
+        log(LogType.ERROR, 'Couldn\'t read package or patch data.');
         return;
     }
 
