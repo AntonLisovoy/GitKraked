@@ -1,0 +1,14 @@
+{
+  "name": "gitkraked",
+  "version": "1.0.0",
+  "main": "gitkraked.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "",
+  "description": "",
+  "dependencies": {
+    "@electron/asar": "^3.2.17"
+  }
+}
