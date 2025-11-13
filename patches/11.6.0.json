@@ -1,0 +1,10 @@
+{
+  "version": "11.6.0",
+  "patches": [
+    {
+      "file": "src/render/static/entryPoints/main/render.bundle.js",
+      "find": "zn=Ve.getLicensedFeatures=(0,Et.createSelector)(getAppSettings,(({licensedFeatures:We})=>We))",
+      "replace": "zn=Ve.getLicensedFeatures=(0,Et.createSelector)(getAppSettings,(({licensedFeatures:We})=>[...We, \"pro\"]))"
+    }
+  ]
+}
